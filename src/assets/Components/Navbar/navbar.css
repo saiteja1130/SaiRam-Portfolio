@@ -1,0 +1,15 @@
+.custom-shadow {
+    box-shadow: -10px 0 10px rgba(64, 157, 214, 0.5);
+  }
+h1{
+    animation: textanim 1.5s ease-in ;
+    transform: translate(0);
+}
+@keyframes textanim {
+  0%{
+      transform: translate(-100%);
+  }
+  100%{
+      transform: translate(0);
+  }
+}

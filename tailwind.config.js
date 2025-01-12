@@ -1,10 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // Include all JavaScript and TypeScript files in src directory
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {}, // Customize your theme here
+    extend: {},
   },
   plugins: [],
-};
+  theme: {
+    extend: {
+      gridTemplateColumns: {
+        24: 'repeat(24, 1fr)', // Defines 24 equal-width columns
+      },
+    },
+  },
+}
