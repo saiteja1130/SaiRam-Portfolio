@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
   return (
-    <div className=' fixed w-full bottom-0 py-1 over-flow flex flex-col md:flex-row justify-between items-center sm:px-6 md:px-10' id='footer'>
+    <div className=' fixed  bg-black w-full over-flow bottom-0 right-0 left-0 py-1 flex flex-col md:flex-row justify-between items-center sm:px-6 md:px-10' id='footer'>
       <div className='text-white flex gap-2 sm:gap-5 md:gap-8  text-xl md:text-3xl items-center'>
       <a className='hover:shadow-md hover:shadow-blue-400 p-2' href="#" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} />
